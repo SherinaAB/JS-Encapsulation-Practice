@@ -64,7 +64,9 @@ function selectSandwich(sandwich) {
     nameInput.value = sandwich.name
 
     renderCart()
-    renderIngredientList()
+    // renderIngredientList()
+    //ADDED FROM ACTIVITY
+    ingredientList.render()
 }
 
 // We'll use this function to save the sandwich, either
